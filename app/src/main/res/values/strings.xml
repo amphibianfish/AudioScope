@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioScope</string>
+    <string name="notification_channel_name">音楽再生コントロール</string>
+    <string name="notification_channel_desc">バックグラウンド再生とロック画面操作を提供します</string>
+</resources>
