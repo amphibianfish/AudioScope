@@ -23,7 +23,7 @@ jobs:
         run: |
           SDKMGR="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
           yes | "$SDKMGR" --licenses > /dev/null 2>&1 || true
-          "$SDKMGR" "platform-tools" "platforms;android-37"
+          "$SDKMGR" "platform-tools" "platforms;android-37.0"
 
       - name: Setup Gradle 9.6.0
         uses: gradle/actions/setup-gradle@v4
